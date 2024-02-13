@@ -1,7 +1,7 @@
 {
   "name": "countdown-timer",
   "version": "0.1.0",
-  "homepage": "https://dgonzalezt2.github.io/react-gh-pages",
+  "homepage": "https://dgonzalezt2.github.io/Days_Counter",
   "private": true,
   "dependencies": {
     "@babel/runtime": "^7.12.1",
@@ -11,7 +11,8 @@
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "^5.0.1",
-    "web-vitals": "^0.2.4"
+    "web-vitals": "^0.2.4",
+    "gh-pages": "^3.2.3"
   },
   "scripts": {
     "start": "react-scripts start",
