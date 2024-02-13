@@ -8,5 +8,6 @@ npm install
 npm start
 ```
 
-First imagen
-![image](https://github.com/dgonzalezt2/Days_Counter/assets/81880494/b22994ec-75ef-4f06-9312-b5a63a1db2a4)
+# Test 1
+![image](https://github.com/dgonzalezt2/Days_Counter/assets/81880494/29c52420-624b-4399-a0e8-286e2ccc8fa9)
+
