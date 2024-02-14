@@ -14,7 +14,7 @@ const Attribution = () => {
       </a>
       .<br />
       Coded {' '}
-      <a href="https://github.com/dgonzalezt2/Days_Counter">DaysCounter-code</a>.
+      <a href="https://github.com/dgonzalezt2/Days_Counter">DaysCounter</a>.
     </div>
   );
 };
