@@ -13,7 +13,7 @@ const Attribution = () => {
         Deiv-ops
       </a>
       .<br />
-      Coded {' '}
+      Code {' '}
       <a href="https://github.com/dgonzalezt2/Days_Counter">DaysCounter</a>.
     </div>
   );
