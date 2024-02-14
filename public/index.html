@@ -4,14 +4,75 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-
     <link rel="icon" type="image/png" sizes="32x32" href="./images/icon.png" />
     <link rel="stylesheet" href="./style.css" />
     <link rel="stylesheet" href="/src/css/app.css" />
+    <!-- Include particles.js library -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 
     <title>CONTADOR DIM</title>
   </head>
   <body>
     <div id="app"></div>
+    <div id="particles-container">
+      <div id="particles-js"></div>
+      <script>
+        particlesJS('particles-js', {
+          "particles": {
+            "number": {
+              "value": 8,
+              "density": {
+                "enable": true,
+                "value_area": 800
+              }
+            },
+            "line_linked": {
+              "enable": false
+            },
+            "move": {
+              "speed": 1,
+              "out_mode": "out"
+            },
+            "shape": {
+              "type": [
+                "image",
+                "circle"
+              ],
+              "image": [
+                {
+                  "src": "./icon.png",
+                  "height": 20,
+                  "width": 23
+                },
+                {
+                  "src": "./icon.png",
+                  "height": 20,
+                  "width": 20
+                },
+                {
+                  "src": "./icon.png",
+                  "height": 20,
+                  "width": 20
+                }
+              ]
+            },
+            "color": {
+              "value": "#CCC"
+            },
+            "size": {
+              "value": 30,
+              "random": false,
+              "anim": {
+                "enable": true,
+                "speed": 4,
+                "size_min": 10,
+                "sync": false
+              }
+            }
+          },
+          "retina_detect": false
+        });
+      </script>
+    </div>
   </body>
 </html>
