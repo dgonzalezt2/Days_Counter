@@ -9,7 +9,7 @@
   --dark-blue: hsl(242, 90%, 12%);
 }
 body {
-  background: url('./images/tifo.gif') bottom right 20% no-repeat,
+  background: url('./images/estadio.gif') bottom right 20% no-repeat,
     url('./images/estadio.jpg');
   background-color: var(--dark-blue);
   background-size: 100% 60%; /* Ajusta los valores según tus necesidades */
