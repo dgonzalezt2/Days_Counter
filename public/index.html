@@ -1,18 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="icon" type="image/png" sizes="32x32" href="./images/icon.png" />
-    <link rel="stylesheet" href="./style.css" />
-    <link rel="stylesheet" href="/src/css/app.css" />
-    <!-- Include particles.js library -->
-    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>CONTADOR DIM</title>
-  </head>
-  <body>
-    <div id="app"></div>
-  </body>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/icon.png" />
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="/src/css/app.css" />
+
+  <title>Contador DIM</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@400;500;700&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    :root {
+      --dark-blue: hsl(242, 90%, 12%);
+    }
+
+    body {
+      background: url('./images/atanasio.png') bottom right 20% no-repeat var(--dark-blue);
+      background-size: 100% 60%;
+      min-height: 100vh;
+      font-family: 'Red Hat Text', sans-serif;
+      font-weight: 700;
+      color: #ffffff;
+      font-size: 14px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .video-container::before {
+      content: "";
+      display: block;
+      padding-bottom: 56.25%;
+    }
+
+    .video-container {
+      position: relative;
+      width: 100%;
+      max-width: 800px;
+    }
+
+    .video-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="video-container">
+    <!-- Coloca aquí el enlace del video de YouTube -->
+    <iframe src="https://www.youtube.com/watch?v=pB1XR89J5Uc" frameborder="0" allowfullscreen></iframe>
+  </div>
+
+  <div id="app"></div>
+</body>
+
 </html>
