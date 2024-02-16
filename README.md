@@ -37,3 +37,5 @@ npm start
 # First design 
 ![image](https://github.com/dgonzalezt2/Days_Counter/assets/81880494/29c52420-624b-4399-a0e8-286e2ccc8fa9)
 
+#Second design 
+![image](https://github.com/dgonzalezt2/Days_Counter/assets/81880494/b1d3ba2c-07ac-4405-b934-97f9827dc15c)
