@@ -10,7 +10,7 @@
 }
 body {
   background: url('./images/atanasio.png') bottom right 20% no-repeat,
-    url('./images/cielo.gif');
+    url('./images/tifo.jpeg');
   background-color: var(--dark-blue);
   background-size: 100% 60%; /* Ajusta los valores según tus necesidades */
   min-height: 100vh;
