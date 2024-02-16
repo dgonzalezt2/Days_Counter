@@ -9,14 +9,14 @@
   --dark-blue: hsl(242, 90%, 12%);
 }
 body {
-  background: url('./images/estadio.gif') bottom right 20% no-repeat,
-    url('./images/estadio.jpg');
+  background: url('./images/estadio\ \(1\).gif') bottom right 20% no-repeat,
+    url('./images/fondo.jpg');
   background-color: var(--dark-blue);
   background-size: 100% 60%; /* Ajusta los valores según tus necesidades */
   min-height: 100vh;
   font-family: 'Red Hat Text', sans-serif;
   font-weight: 700;
-  color: #ffffff;
+  color: #28077d;
   font-size: 14px;
 }
 

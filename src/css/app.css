@@ -1,14 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@400;500;700&display=swap");
 
 body {
-  background: url('../../public/images/estadio.gif') bottom right 20% no-repeat,
-    url('../../public/images/estadio.jpg');
+  background: url('../../public/images/estadio\ \(1\).gif') bottom right 20% no-repeat,
+    url('../../public/images/fondo.jpg');
   background-color: var(--dark-blue);
-  background-size: 100% 60%; /* Ajusta los valores según tus necesidades */
+  background-size: 100% 60%;
+  /* Ajusta los valores según tus necesidades */
   min-height: 100vh;
   font-family: 'Red Hat Text', sans-serif;
   font-weight: 700;
-  color: #ffffff;
+  color: #28077d;
   font-size: 14px;
 }
 
@@ -18,7 +19,7 @@ body {
   display: flex;
   height: auto;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
 }
 
 .countdown__container .countdown__card {
@@ -29,9 +30,9 @@ body {
   position: relative;
   height: 0;
   padding-bottom: 100%;
-  background-color: #ffffff;
+  background-color: #ff0000;
   -webkit-box-shadow: 0px 8px 0px 1px #191a24;
-          box-shadow: 0px 8px 0px 1px #191a24;
+  box-shadow: 0px 8px 0px 1px #191a24;
   border-radius: 10px;
   -webkit-transition: all 0.175s linear;
   transition: all 0.175s linear;
@@ -45,7 +46,7 @@ body {
   width: 6px;
   height: 12px;
   border-radius: 0 15px 15px 0;
-  background-color: #191a24;
+  background-color: #3f0101;
   z-index: 10;
 }
 
@@ -57,7 +58,7 @@ body {
   width: 6px;
   height: 12px;
   border-radius: 15px 0 0 15px;
-  background-color: #560419;
+  background-color: #3f0101;
   z-index: 10;
 }
 
@@ -73,7 +74,7 @@ body {
   place-content: center;
   place-items: center;
   font-size: 5vw;
-  color: #522e37;
+  color: #f4f4f6;
 }
 
 .countdown__container .countdown__card .countdown__card__bg .countdown__card__number::before {
@@ -83,7 +84,7 @@ body {
   top: 0;
   width: 100%;
   height: 50%;
-  background-color: #aa989d;
+  background-color: #833737;
   opacity: 0.35;
   z-index: 10;
 }
@@ -93,14 +94,14 @@ body {
   text-transform: uppercase;
   font-size: 1.5vw;
   letter-spacing: 5px;
-  color: #560419;
-  background-color: #f0f0f0; 
+  color: #140786;
+
 }
 
 
 .rotate {
   -webkit-transform: rotateX(360deg);
-          transform: rotateX(360deg);
+  transform: rotateX(360deg);
 }
 
 .social-links {
@@ -109,10 +110,10 @@ body {
   display: flex;
   margin: auto;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   width: 10rem;
 }
 
@@ -121,7 +122,7 @@ body {
 }
 
 .social-links .icon:hover svg path {
-  fill: #000000;
+  fill: #ffffff;
 }
 
 .social-links .icon svg path {
@@ -135,7 +136,7 @@ body {
 }
 
 .attribution a {
-  color: #ffffff;
+  color: #e80505;
   letter-spacing: 2px;
 }
 
@@ -152,14 +153,14 @@ body {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-flow: column nowrap;
-          flex-flow: column nowrap;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
 }
 
 .container main {
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 auto;
-          flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
   min-width: 350px;
   width: 75%;
   max-width: 1100px;
@@ -176,5 +177,5 @@ body {
   text-transform: uppercase;
   padding-bottom: 4rem;
 }
-/*# sourceMappingURL=app.css.map */
 
+/*# sourceMappingURL=app.css.map */
