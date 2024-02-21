@@ -2,7 +2,7 @@
 
 body {
   background: url('../../public/images/poderoso.gif') bottom right 20% no-repeat,
-    url('../../public/images/fondo-fotor-20240221115331.jpg');
+    url('../../public/images/fondo.jpg');
   background-color: var(--dark-blue);
   background-size: 100% 60%;
   /* Ajusta los valores según tus necesidades */
@@ -92,9 +92,10 @@ body {
 .countdown__container .countdown__card__label {
   padding-top: 1.5rem;
   text-transform: uppercase;
-  font-size: 1.5vw;
+  font-size: 1.7vw;
   letter-spacing: 5px;
   color: #e5e8eb;
+  background-color: #2a0280;
 
 }
 
