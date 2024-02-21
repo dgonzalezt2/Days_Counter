@@ -10,7 +10,7 @@
 }
 body {
   background: url('./images/poderoso.gif') bottom right 20% no-repeat,
-    url('./images/fondo.jpg');
+    url('./images/fondo-fotor-20240221115331.jpg');
   background-color: var(--dark-blue);
   background-size: 100% 60%; /* Ajusta los valores según tus necesidades */
   min-height: 100vh;

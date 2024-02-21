@@ -2,7 +2,7 @@
 
 body {
   background: url('../../public/images/poderoso.gif') bottom right 20% no-repeat,
-    url('../../public/images/fondo.jpg');
+    url('../../public/images/fondo-fotor-20240221115331.jpg');
   background-color: var(--dark-blue);
   background-size: 100% 60%;
   /* Ajusta los valores según tus necesidades */
@@ -122,7 +122,7 @@ body {
 }
 
 .social-links .icon:hover svg path {
-  fill: #ffffff;
+  fill: #a40303;
 }
 
 .social-links .icon svg path {

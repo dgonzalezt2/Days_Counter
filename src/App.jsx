@@ -12,7 +12,7 @@ const App = () => {
     <div className="app-container">
       <div className="container">
         <main>
-          <h2>¿Cuántos días han pasado desde que el Deportivo Independiente Medellín fue campeón?</h2>
+          <h2>¿Cuánto tiempo ha pasado el DIM sin ser campeón?</h2>
           <CountDownTimer />
         </main>
         <SocialLinks />
