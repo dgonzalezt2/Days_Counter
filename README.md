@@ -40,3 +40,6 @@ npm start
 
 # Second design 
 * ![image](https://github.com/dgonzalezt2/Days_Counter/assets/81880494/b1d3ba2c-07ac-4405-b934-97f9827dc15c)
+
+# Third design
+* ![image](https://github.com/dgonzalezt2/Days_Counter/assets/81880494/6c180370-4669-4e4e-824c-075c4fc959e6)
