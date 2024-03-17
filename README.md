@@ -1,4 +1,6 @@
 # Days_Counter
+Days_Counter is a React-based website that features a real-time counter. This counter displays the number of days that have elapsed since the last time the DIM football team was crowned champions in Colombia.
+
 Created by: [Deiv-Ops](https://github.com/dgonzalezt2)
 * Look the page in: https://dgonzalezt2.github.io/Days_Counter/
 
